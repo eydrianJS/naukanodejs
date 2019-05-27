@@ -5,24 +5,26 @@ module.exports = `
         description: String!
         price: Float!
         date: String!
+        creator: User!
     }
 
     type User {
-    _id: ID!
-    email: String!
-    password: String      
+        _id: ID!
+        email: String!
+        password: String
+        createdEvents: [Event!]
     }
 
     input EventInput {
         title: String!
         description: String!
         price: Float!
-        date: String!
+        date: String!        
     }
 
     input UserInput {
-    email: String!
-    password: String
+        email: String!
+        password: String
     }
 
     type RootQuery {
