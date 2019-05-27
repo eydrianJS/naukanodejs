@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/eydrianJS/naukanodejs#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.1",
-    "mongoose": "^5.5.11"
+    "mongoose": "^5.5.11",
+    "save": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
